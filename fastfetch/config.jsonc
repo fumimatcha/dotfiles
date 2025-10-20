@@ -1,0 +1,96 @@
+{
+  "logo": {
+    "type": "auto",
+    "source": "~/Pictures/konsole/nazrin1.png",
+    "width": 20
+  },
+
+   "display": {
+    "color": "red",
+    "separator": "  "
+  },
+  "modules": [
+    
+    // Title
+    {
+      "type": "title",
+      "format": "{#90}╭───────────── {#}{user-name}"
+
+  
+    },
+    // System Information
+    {
+      "type": "custom",
+      "format": "{#90}│ {#}System Information"
+    },
+    {
+      "type": "os",
+      "key": "{#90}│  {#90}󰍹 OS"
+    },
+    {
+      "type": "kernel",
+      "key": "{#90}│  {#90}󰒋 Kernel"
+    },
+    {
+      "type": "uptime",
+      "key": "{#90}│  {#90}󰅐 Uptime"
+    },
+    {
+      "type": "custom",
+      "format": "{#90}│"
+    },
+    // Desktop Environment
+    {
+      "type": "custom",
+      "format": "{#90}│ {#}Desktop Environment"
+    },
+    {
+      "type": "de",
+      "key": "{#90}│  {#90}󰧨 DE"
+    },
+    {
+      "type": "wm",
+      "key": "{#90}│  {#90}󱂬 WM"
+    },
+    {
+      "type": "shell",
+      "key": "{#90}│  {#90}󰞷 Shell"
+    },
+    {
+      "type": "terminalfont",
+      "key": "{#90}│  {#90}󰛖 Font"
+    },
+    {
+      "type": "custom",
+      "format": "{#90}│"
+    },
+    // Hardware Information
+    {
+      "type": "custom",
+      "format": "{#90}│ {#}Hardware Information"
+    },
+    {
+      "type": "cpu",
+      "key": "{#90}│  {#90}󰻠 CPU"
+    },
+    {
+      "type": "gpu",
+      "key": "{#90}│  {#90}󰢮 GPU"
+    },
+    {
+      "type": "memory",
+      "key": "{#90}│  {#90}󰍛 Memory",
+      "format": "{used} / {total}"
+    },
+    {
+      "type": "custom",
+      "format": "{#90}│"
+    },
+    
+    // Footer
+    {
+      "type": "custom",
+      "format": "{#90}╰───────────────────────────────╯"
+    }
+  ]
+}
